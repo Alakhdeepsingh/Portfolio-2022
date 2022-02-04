@@ -1,2 +1,2 @@
 # AlakhdeepSingh-Portfolio
-My personal website ( Portfolio ) build with React.js
+My interactive portfolio website developed using HTML5, Bootstrap5, CSS3, JavaScript and AOS
