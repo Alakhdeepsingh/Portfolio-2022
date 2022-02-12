@@ -1,9 +1,9 @@
 :root {
   --kprimary: rgb(27, 23, 87);
-  --kprimary2: rgb(165, 20, 88);
+  --kprimary2: pink;
   --kprimary3: rgba(255, 255, 255, 0.966);
   --kprimary4: black;
-  --kprimary5: #fdec6e;
+  --kprimary5: rgb(255, 0, 191);
   --kheadings: rgba(255, 255, 255, 0.966);
 }
 /* rgb(80, 28, 85); */
@@ -64,15 +64,15 @@ body {
 
 .gl {
   color: var(--kprimary5);
-  text-shadow: 0px 0px 10px #ff8a05;
-  transition: all 0.2s ease-in;
-  font-family: "Josefin Slab", serif;
+  /* text-shadow: 0px 0px 10px #ff8a05; */
+  transition: all 0.1s ease-in;
+  font-family: "Josefin Slab", serif, arial;
   text-transform: uppercase;
 }
 
 .name2 {
-  font-family: "Josefin Slab", serif;
-  text-transform: lowercase;
+  font-family: "Josefin Slab", serif, arial, helvetica, sans-serif;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -87,7 +87,7 @@ body {
 }
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid;
+  border-left: rgb(68, 68, 68) 3px solid;
 }
 
 #dp {
@@ -104,7 +104,7 @@ body {
 }
 
 #about {
-  margin-top: 6.6rem;
+  margin-top: 7rem;
 }
 
 #about .icon {
@@ -118,20 +118,20 @@ body {
 
 #education .card {
   background-color: var(--kprimary4);
-  border-radius: 3;
+  border-radius: 6;
 }
 
 .img-icon {
-  height: 4rem;
-  width: 4rem;
+  height: 4.5rem;
+  width: 4.5rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .plang {
-  border-radius: 6px;
-  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  box-shadow: 5px 0 15px rgba(110, 86, 194, 0.25);
   position: relative;
   transform: scale(0.95);
   transition: all 0.3s ease;
@@ -180,3 +180,23 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.contact-content{
+  margin: 5vmax 0 0 0;
+  background-color:black;
+  padding: 1vmax;
+  padding-bottom:0;
+  display: grid;
+  grid-template-columns: reapeat(3,1fr);
+
+}
+.contact-content>div {
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  color:rgba(66,66,66,0.829);
+}
+
+
+
+
+
