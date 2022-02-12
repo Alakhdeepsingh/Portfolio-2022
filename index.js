@@ -59,11 +59,12 @@ var state =0;
 function changeColor() {
   let root = document.documentElement;
   if(state == 0) {
-    root.style.setProperty("--kprimary", '#bfbfbf');
+    root.style.setProperty("--kprimary", 'purple');
     root.style.setProperty("--kprimary2", '#00203FFF');
-    root.style.setProperty("--kprimary3", '#131417');
+    root.style.setProperty("--kprimary3", 'white');
     root.style.setProperty("--kheadings", '#00203FFF');
-    root.style.setProperty("--kprimary4", '#808080');
+    root.style.setProperty("--kprimary4", 'black');
+    
     state++;
   }
   else {
