@@ -196,7 +196,23 @@ video {
   color:rgba(66,66,66,0.829);
 }
 
+.card1 {
+  height: 470px;
+}
 
+.card-img-top {
+  height: 200px
+}
+
+
+.bottom {
+  position:absolute;
+  bottom: 20px;
+}
+
+.card2{
+  height: 600px;
+}
 
 
 
