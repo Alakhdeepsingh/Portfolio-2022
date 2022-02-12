@@ -219,7 +219,14 @@ video {
   margin-top: 5rem;
 }
 .paf{
-  padding:4rem;
+  padding:3rem;
 }
 
+.sizee{
+  width:20px;
+  height:20px;
+}
+.textwhite{
+  direction :none;
+}
 
