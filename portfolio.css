@@ -207,7 +207,7 @@ video {
 
 .bottom {
   position:absolute;
-  bottom: 20px;
+  bottom: 15px;
 }
 
 .card2{
@@ -229,4 +229,3 @@ video {
 .textwhite{
   direction :none;
 }
-
