@@ -115,7 +115,7 @@ var state = 0;
 function changeColor() {
 	let root = document.documentElement;
 	if (state == 0) {
-		root.style.setProperty("--kprimary", 'purple');
+		root.style.setProperty("--kprimary", '#330033');
 		root.style.setProperty("--kprimary2", '#00203FFF');
 		root.style.setProperty("--kprimary3", 'white');
 		root.style.setProperty("--kheadings", '#00203FFF');
