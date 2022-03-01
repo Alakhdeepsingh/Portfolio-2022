@@ -13,7 +13,7 @@ class TxtRotate {
 		this.loopNum = 0;
 
 		//10 is for decimal
-		this.period = parseInt(period, 10) || 1000;
+		this.period = parseInt(period, 10) || 100;
 		this.txt = '';
 		this.tick();
 		this.isDeleting = false;
